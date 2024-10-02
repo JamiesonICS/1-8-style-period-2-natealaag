@@ -1,3 +1,4 @@
+
 html {
   min-height: 100vh;
 }
@@ -7,13 +8,6 @@ body {
   font-size: 100%;
   margin: 10px;
   padding: 20px;
-}
-
-h1 {
-  color: #17b8d1;
-  font-size: 50px;
-  font-weight: bold;
-  font-family: Times New Roman;
 }
 
 /* The # selects an id instead of a tag */
@@ -29,11 +23,6 @@ p, div {
 
 }
 
-/*
-  a:link - a normal, unvisited link
-  a:visited - a link the user has visited
-  a:hover - a link when the user mouses over it
-*/
 a:link {
   color:green;
 }
@@ -50,4 +39,41 @@ a:hover {
 a {
   transition-duration: 0.5s;
   transition-property: font-size, color;
+}
+h1 {
+  color: #4d0481;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Times New Roman;
+}
+
+h2 {
+ color: #464e4f;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Comic sans;
+}
+
+p {  color: #5f868c;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: verdana; 
+}
+
+h3 { color: #2e0433;
+ font-size: 23px;
+ font-weight: bold;
+ font-family: montserrat;
+ }
+ol { color: #cf9906;
+ font-size: 16px;
+ font-weight: bold;
+ font-family: lobster;
+ }
+
+
+      table, th, td {
+        border: 1px solid black;
+      }
+ul { color:#cf9906;
 }
